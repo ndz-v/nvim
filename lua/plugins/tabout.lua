@@ -1,8 +1,8 @@
 return {
-  'abecodes/tabout.nvim',
-  lazy = false,
-  config = {},
-  dependencies = {
-    'nvim-treesitter'
-  },
+    'abecodes/tabout.nvim',
+    lazy = false,
+    config = {},
+    dependencies = {
+        'nvim-treesitter'
+    },
 }

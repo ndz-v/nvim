@@ -1,11 +1,12 @@
 local opt = vim.opt
 
 -- Tab / Indentation
-opt.tabstop = 2 -- number of tabs
-opt.shiftwidth = 2 -- number of indentation
-opt.softtabstop = 2
+opt.tabstop = 4    -- number of tabs
+opt.shiftwidth = 4 -- number of indentation
+opt.softtabstop = 4
 opt.expandtab = true
 opt.smartindent = true
+opt.autoindent = true
 opt.wrap = false
 
 -- Search
@@ -39,5 +40,5 @@ opt.iskeyword:append('-')
 opt.mouse:append('a')
 opt.clipboard:append('unnamedplus')
 opt.modifiable = true
--- opt.guicursor = 
+-- opt.guicursor =
 opt.encoding = 'UTF-8'
